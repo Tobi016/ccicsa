@@ -1,0 +1,37 @@
+body{
+  background-color: #393939;
+}
+.navbar{
+  opacity: 0.75;
+  background-color: black;
+  margin: 15px;
+  margin-bottom: 0;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+.navbar-brand{
+  float: left;
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #FF7D0A;
+}
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+  color: #FFF;
+  background-color: black;
+}
+.carousel{
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.carousel-caption{
+  top: 30%;
+  transform: translateY(-50);
+}
+@media (max-width: 600px){
+  .carousel-caption{
+    display: none;
+  }
+}
