@@ -34,4 +34,7 @@ body{
   .carousel-caption{
     display: none;
   }
+  .carousel, .carousel-inner > .item > img {
+      height: 300px;
+    }
 }
