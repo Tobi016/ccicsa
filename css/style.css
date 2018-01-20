@@ -25,6 +25,22 @@
   background-color: black;
 }
 
+#QuiS{
+  margin-bottom: 50px;
+}
+
+#Indus{
+  margin-bottom: 50px;
+}
+
+#Infra{
+  margin-bottom: 50px;
+}
+
+#Tel{
+  margin-bottom: 50px;
+}
+
 .carousel-caption{
   top: 30%;
   transform: translateY(-50);
